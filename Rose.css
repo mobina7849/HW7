@@ -1,0 +1,271 @@
+@font-face {
+    font-family: bjpg;
+    src: url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/l?subset_id=2&fvd=i5&v=3) format("woff2"), url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/d?subset_id=2&fvd=i5&v=3) format("woff"), url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/a?subset_id=2&fvd=i5&v=3) format("opentype");
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: bjpg;
+    src: url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: bjpg;
+    src: url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/l?subset_id=2&fvd=n5&v=3) format("woff2"), url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/d?subset_id=2&fvd=n5&v=3) format("woff"), url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/a?subset_id=2&fvd=n5&v=3) format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: bjpg;
+    src: url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/l?subset_id=2&fvd=n6&v=3) format("woff2"), url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/d?subset_id=2&fvd=n6&v=3) format("woff"), url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/a?subset_id=2&fvd=n6&v=3) format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: bjpg;
+    src: url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #ffffff;
+font-family: bjpg;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    height: 2000px;
+    width: 92%;
+    margin: auto;
+    /* background-color: orange; */
+}
+.sidebar{
+    height: 100%;
+    width: 30%;
+    /* background-color:#fed; */
+    padding-left: 0px;
+}
+.co-gall{
+    width: 70%;
+    height:100%;
+    /* background-color: blueviolet; */
+
+}
+.content{
+    height: 13%;
+    background-color:#dee3e9;
+    text-align: center;
+    padding: 110px 11% 90px 11%;
+   
+    /* text-transform: none; */
+}
+.content h1{
+    
+    color: #315375;
+    font-family: bjpg;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+p{
+    color: #597188;
+    font-family: bjpg;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 28px; */
+    /* margin-bottom: 0px; */
+    /* margin-top: 20px; */
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.img1{
+    width: 49.8%;
+    margin-top:0.4%;
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
+    position: relative;
+
+}
+img{
+    object-fit: cover;
+    /* width: 439px; */
+    width: 100%;
+    /* height: 284px; */
+    height: 100%;
+    /* padding-right: 0.2%; */
+    /* position: absolute; */
+}
+.odd-img{
+    margin-right: 0.2%;
+    
+}
+.even-img{
+     margin-left: 0.2%;
+}
+.footer{
+    width: 100%;
+    height: 78px;
+    background-color: #ffffff;
+    padding: 60px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+}
+.nav{
+    list-style-type: none;
+    /* margin-left: 0px; */
+    padding-left: 0px;
+
+}
+.list-item{
+    padding-bottom: 10px;
+}
+
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #012b55d4;
+}
+.img1:hover .cover{
+    opacity: 1;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#153b62;
+}
+.link:link{
+    color:#153b62;
+}
+.link:visited{
+    color:#153b62;
+}
+.link:hover{
+    color:#153b62;
+
+}
+.link:active{
+    color:#153b62;
+}
+.icon a{
+    color:#153b62;
+    background-color: #e5e9ee;
+    /* width: 30px; */
+    /* height: 30px; */
+    /* padding:8px 2px 2px 2px; */
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    padding: 9px 4px;
+    font-size: 14px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+    border-radius: 50%;
+    
+} 
+.icon a:hover{
+    color:#153b62;
+    background-color: #ccd5dd;
+
+
+}
+header{
+    padding: 50px 0px 40px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.title{
+    color: #012B55;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.title-cover{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-top:25%;
+}
+.text-cover{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+}
+.footer-text{
+   color: #597188;
+   text-decoration: none;
+}
+.footer-text a:hover{
+    color: #597188;
+}
+.footer-text a:visited{
+    color: #597188;
+
+}
+.bookmark a{
+    background: rgba(1, 43, 85, 0.1);
+    border-radius: 5px;
+    display: block;
+    bottom: 40px;
+    height: 50px;
+    width: 50px;
+    right: 40px;
+    position: fixed;
+    transition: 0.5s ease;
+}
+
+.bookmark a:hover{
+    background-color:#bfcad4;
+}
+
